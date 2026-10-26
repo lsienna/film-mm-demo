@@ -1,0 +1,9 @@
+# L2：接跨模态模型（需要 GPU，或有耐心用 CPU 跑 7 张图）
+# 装之前先看 check_env.py 的输出；没有 NVIDIA 卡就用 CPU 版。
+#
+#   GPU 版（默认，自动匹配 CUDA）  pip install -r requirements-gpu.txt
+#   CPU 版（无独显）             pip install torch --index-url https://download.pytorch.org/whl/cpu
+#                                pip install transformers ftfy
+torch
+transformers>=4.30
+ftfy
